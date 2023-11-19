@@ -3,7 +3,7 @@ dist: focal
 language: c
 
 vm:
-  size: large
+  size: medium
 
 jobs:
   include:
