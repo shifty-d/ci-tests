@@ -1,5 +1,5 @@
 vm:
-  size: [2x-large]
+  size: 2x-large
   
 os: linux
 dist: focal
