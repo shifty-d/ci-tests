@@ -1,9 +1,9 @@
+vm:
+  size: [2x-large]
+  
 os: linux
 dist: focal
 language: c
-
-vm:
-  size: [2x-large]
 
 jobs:
   include:
