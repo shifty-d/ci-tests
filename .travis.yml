@@ -14,7 +14,7 @@ jobs:
         - ls -d $PWD/*
         - git clone --depth=1 https://github.com/muralivijay/kernel_xiaomi_sm6225
         - export ARCH=arm64
-        - export PATH=/home/travis/shifty-d/ci-tests/android_prebuilts_clang-standalone/bin:$PATH
+        - export PATH=/home/travis/build/shifty-d/ci-tests/android_prebuilts_clang-standalone/bin:$PATH
         - clang -v
         - cd kernel_xiaomi_sm6225
         - make vendor/spes-perf_defconfig
