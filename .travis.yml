@@ -2,11 +2,12 @@ os: linux
 dist: focal
 language: c
 
+vm:
+  size: 2x-large
+
 jobs:
   include:
     - name: "Build Kernel"
-    vm:
-  size: 2x-large
       arch: amd64
       script:
         - sudo apt-get update
