@@ -11,6 +11,7 @@ jobs:
         - sudo apt-get install -y bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
         - sudo apt-get remove -y clang*
         - git clone --depth=1 -b 14 https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone
+        - ls -d $PWD/*
         - git clone --depth=1 https://github.com/muralivijay/kernel_xiaomi_sm6225
         - export ARCH=arm64
         - export PATH=/home/travis/shifty-d/ci-tests/android_prebuilts_clang-standalone/bin:$PATH
