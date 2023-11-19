@@ -1,7 +1,5 @@
 os: linux
 dist: focal
-
-  
 language: c
 
 jobs:
