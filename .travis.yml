@@ -1,7 +1,6 @@
 os: linux
 dist: focal
-vm:
-  size: 2x-large
+
   
 language: c
 
